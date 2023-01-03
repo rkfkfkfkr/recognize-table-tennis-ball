@@ -54,13 +54,11 @@ def mian():
                 
 
         cv2.imshow('frame1',frame1)
-        cv2.imshow('frame2',frame2)
 
         if cv2.waitKey(1) == ord('q'):
             break
     
     cap1.release()
-    cap2.release()
     cv2.destroyAllWindows()
 
         
